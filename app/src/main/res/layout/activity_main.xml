@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#DACBF6"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/youtube_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YouTube URL"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/add_to_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Playlist"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/my_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Playlist"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="17sp"/>
+
+</LinearLayout>
